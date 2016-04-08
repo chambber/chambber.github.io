@@ -1,16 +1,16 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: Sobre mim
+subtitle: Por que você gostaria de ir a um encontro comigo
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Meu nome é Rubens Pereira do Nascimento e eu tenho alguns hobbies:
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+- Ler livros, muitos livros
+- Extremamente aficcionado em tecnologia
 
-What else do you need?
+O que mais você precisa?
 
-### my history
+### Minha história
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+Para ser sincero, estou tendo alguns problemas para lembrar agora, então por que você apenas não assiste [meu vídeo](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) e ele irá responder **todas** as suas perguntas.
