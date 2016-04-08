@@ -18,12 +18,12 @@ subtitle: Aqui é onde eu vou dizer aos meus amigos sobre mim
     </a>
 
     <p class="post-meta">
-      Posted on {{ post.date | date: "%B %-d, %Y" }}
+      Postado em {{ post.date | date: "%-d de %B de %Y" }}
     </p>
   
     <div class="post-entry">
       {{ post.content | truncatewords: 50 | strip_html | xml_escape}}
-	  <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
+	  <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Leia&nbsp;Mais]</a>
     </div>
   
    </article>
@@ -34,12 +34,12 @@ subtitle: Aqui é onde eu vou dizer aos meus amigos sobre mim
 <ul class="pager main-pager">
   {% if paginator.previous_page %}
   <li class="previous">
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Posts Recentes</a>
   </li>
   {% endif %}
   {% if paginator.next_page %}
   <li class="next">
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Posts anteriores &rarr;</a>
   </li>
   {% endif %}
 </ul>
